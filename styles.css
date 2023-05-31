@@ -1,0 +1,54 @@
+.deleteButton {
+    border: 0;
+    border-radius: 5px;
+    color: #f8fafc;
+    background-color: #ef4444;
+}
+
+.deleteButton:hover {
+    background-color: #dc2626;
+}
+
+.editButton {
+    border: 0;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #f8fafc;
+    background-color: #3b82f6;
+}
+
+.editButton:hover {
+    background-color: #2563eb;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+ul > li {
+    margin-left: 5px;
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+ul > li:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 601px) {
+    .editButton {
+        margin-bottom: 4px;
+    }
+}
